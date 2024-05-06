@@ -1,0 +1,29 @@
+{
+  "name": "host",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@module-federation/enhanced": "^0.1.11",
+    "@mui/material": "^5.15.16",
+    "@noriginmedia/norigin-spatial-navigation": "^2.1.0",
+    "@tanstack/react-query": "^5.32.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-error-boundary": "^4.0.13",
+    "react-router-dom": "^6.23.0"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^0.6.8",
+    "@rsbuild/plugin-react": "^0.6.8",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "typescript": "^5.4.2"
+  }
+}

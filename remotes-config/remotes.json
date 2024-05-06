@@ -1,0 +1,17 @@
+[
+  {
+    "name": "app1",
+    "entry": "http://localhost:3000/remoteEntry.js",
+    "alias": "app1"
+  },
+  {
+    "name": "app2",
+    "entry": "http://localhost:3001/remoteEntry.js",
+    "alias": "app2"
+  },
+  {
+    "name": "app3",
+    "entry": "http://localhost:3002/remoteEntry.js",
+    "alias": "app3"
+  }
+]
